@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120218160321) do
+ActiveRecord::Schema.define(:version => 20120218161853) do
 
   create_table "identities", :force => true do |t|
     t.integer  "thing_id"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(:version => 20120218160321) do
     t.integer  "is_primary"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "parent_id"
   end
 
   create_table "relationship_parts", :force => true do |t|
