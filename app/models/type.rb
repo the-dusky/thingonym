@@ -1,3 +1,4 @@
 class Type < ActiveRecord::Base
-  belongs_to :identity
+  has_many :identities
+  has_many :things
 end

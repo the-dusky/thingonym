@@ -1,5 +1,5 @@
 class Organization < ActiveRecord::Base
-  belongs_to :identity
+  has_many :identities
   
   validates :name, :presence => :true
   
