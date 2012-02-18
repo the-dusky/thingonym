@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  relationship_id: 1
+  identity_id: 1
+  is_primary: 1
+  description: MyString
+
+two:
+  relationship_id: 1
+  identity_id: 1
+  is_primary: 1
+  description: MyString
